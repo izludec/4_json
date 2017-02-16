@@ -14,7 +14,6 @@ def pretty_print_json(json_data):
 
 
 if __name__ == '__main__':
-    print(os.getcwd())
     path_to_json = input("Enter path to JSON  \n")
     json_data = load_data(path_to_json)
     print(pretty_print_json(json_data))
