@@ -23,4 +23,3 @@ if __name__ == '__main__':
     path_to_json = input("Enter path to JSON  \n")
     json_data = load_data(path_to_json)
     print(pretty_print_json(json_data))
-
