@@ -15,10 +15,8 @@ def load_data(filepath):
 
 
 def pretty_print_json(json_data):
-    pretty_print = None
-    pretty_print = json.dumps(
+    return json.dumps(
     json_data, sort_keys=True, indent=4, ensure_ascii=False)
-    return pretty_print
 
 
 if __name__ == '__main__':
