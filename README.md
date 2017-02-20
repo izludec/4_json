@@ -50,14 +50,12 @@ Cкрипт принимает на вход путь до файла, в кот
 
 # Quickstart
 
-[TODO]
-
 Example of script launch on Linux, Python 3.5:
 
 ```#!bash
 
-$ python pprint_json.py <path to file>
-# TODO add output example
+$ python pprint_json.py 
+<path to file>
 
 ```
 
